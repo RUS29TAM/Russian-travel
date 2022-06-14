@@ -1,0 +1,10 @@
+.photo-grid {
+  position: absolute;
+  width: 1184px;
+  height: 671px;
+  left: 48px;
+  top: 1754px;
+  border: 1px solid yellowgreen;
+  display: flex;
+ 
+}

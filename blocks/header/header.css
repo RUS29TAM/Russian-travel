@@ -1,0 +1,12 @@
+.header {
+  position: relative;
+  display: flex;
+    width: 1184px;
+  height: 52px;
+  left: 48px;
+  top: 28px;
+
+  border: 1px solid goldenrod;
+  justify-content:space-between;
+  align-items: center;
+}

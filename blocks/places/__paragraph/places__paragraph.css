@@ -1,0 +1,21 @@
+.places__paragraph {
+ 
+  width: 484px;
+  height: 145px;
+  left: 648px;
+  top: 2717px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  
+  /* or 29px */
+
+  color: #ffffff;
+  grid-column-start: 2;
+  margin: 0;
+  padding: 0;
+  margin-left: 40px;
+}

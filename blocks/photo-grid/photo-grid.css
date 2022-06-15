@@ -4,7 +4,7 @@
   height: 671px;
   left: 48px;
   top: 1754px;
-  border: 1px solid yellowgreen;
-  display: flex;
- 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
 }

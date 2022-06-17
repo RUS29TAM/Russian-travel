@@ -1,10 +1,6 @@
 .photo-grid {
-  position: absolute;
-  width: 1184px;
-  height: 671px;
-  left: 48px;
-  top: 1754px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 16px;
+  /*border: 1px solid red;*/
+  width: 100%;
+  padding: 0 48px 96px;
+  box-sizing: border-box;
 }

@@ -1,21 +1,14 @@
 .places__url-heading {
+  /*border: 1px solid red;*/
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
 
-width: 456px;
-height: 12px;
-left: 648px;
-top: 2623px;
+  letter-spacing: 2px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 12px;
-/* identical to box height, or 100% */
-
-letter-spacing: 2px;
-
-color: #AAAAAA;
-margin: 0;
-padding-bottom: 12px;
-
+  color: #aaaaaa;
+  margin: 0 0 12px;
 }

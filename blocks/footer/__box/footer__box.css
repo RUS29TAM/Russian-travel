@@ -1,0 +1,8 @@
+.footer__box {
+    max-width: 1184px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

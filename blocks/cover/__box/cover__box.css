@@ -1,0 +1,9 @@
+.cover__box {
+  /*border: 1px solid goldenrod;*/
+  max-width: 1184px;
+  height: 740px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+}

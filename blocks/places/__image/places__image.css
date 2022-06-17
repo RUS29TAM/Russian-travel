@@ -1,8 +1,6 @@
 .places__image {
-
-width: 460px;
-height: 460px;
-left: 148px;
-top: 2717px;
-grid-column-start: 1;
+  /*border: 1px solid red;*/
+  width: 100%;
+  max-width: 460px;
+  max-height: 460px;
 }

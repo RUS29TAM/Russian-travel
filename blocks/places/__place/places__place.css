@@ -1,13 +1,12 @@
 .places__place {
-
-width: 984px;
-height: 660px;
-left: 148px;
-top: 2517px;
-
+/*border: 1px solid red;*/
+width: 100%;
+max-width: 984px;
 display: grid;
-grid-template-columns: 1fr 1fr 100%;
-margin-bottom: 76px;
+grid-template-columns: 460px 484px;
+gap: 48px 40px;
+margin: 0 auto 76px;
+
 }
 
 .places__place:last-child {

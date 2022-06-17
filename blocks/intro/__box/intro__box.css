@@ -1,6 +1,6 @@
-.header {
+.intro__box {
   /*border: 1px solid red;*/
-  width: 100%;
-  padding: 28px 48px 48px;
+  max-width: 984px;
   box-sizing: border-box;
+  margin: 0 auto;
 }

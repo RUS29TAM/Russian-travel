@@ -1,5 +1,6 @@
 .lead__title {
   /*border: 1px solid red;*/
+
   max-width: 720px;
   font-family: "Inter";
   font-style: normal;
@@ -9,4 +10,24 @@
   text-align: center;
   color: #ffffff;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    width: 100%;
+    max-width: 720px;
+    font-size: 96px;
+    line-height: 100px;
+    
+  }
+}
+
+
+@media screen and (max-width: 319px) {
+  .lead__title {
+    width: 100%;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }

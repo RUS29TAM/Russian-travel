@@ -2,9 +2,11 @@
   /*border: 1px solid red;*/
   display: flex;
   list-style: none;
-  width: 78px;
+  width: 77px;
   justify-content: space-between;
   align-items: center;
   margin: 0;
   padding: 0;
+  gap: 18px;
 }
+

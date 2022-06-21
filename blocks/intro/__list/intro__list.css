@@ -1,5 +1,5 @@
 .intro__list {
-  /*border: 1px solid red;*/
+  border: 1px solid red;
   max-width: 690px;
   font-family: "Inter";
   font-style: normal;
@@ -10,4 +10,5 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+
 }

@@ -19,9 +19,19 @@
     font-size: 96px;
     line-height: 100px;
     
+    
   }
 }
 
+
+@media screen and (max-width: 600px) {
+  .lead__title { 
+    width: 100%;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
 
 @media screen and (max-width: 319px) {
   .lead__title {

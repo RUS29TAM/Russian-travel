@@ -1,9 +1,14 @@
 .lead__map {
   /*border: 1px solid red;*/
+  width: 100%;
   max-width: 984px;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 0;
+
+  
+
+
+
 }
 
 

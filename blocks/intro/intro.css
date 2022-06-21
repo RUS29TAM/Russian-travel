@@ -1,6 +1,11 @@
 .intro {
-  /*border: 1px solid red;*/
+  border: 1px solid red;
+  box-sizing: border-box;
   width: 100%;
-  margin: 0 auto;
-  padding: 0 48px 92px;
+  margin: 0 0 48px;
+
+  /*padding: 0 148px 92px;
+  padding-right: 422px;*/
+
 }
+

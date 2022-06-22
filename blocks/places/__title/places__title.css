@@ -9,7 +9,7 @@
   padding: 0;
   /*color: #ffffff;*/
   width: 100%;
-  min-width: 288px;
+ /* min-width: 288px;*/
 
 }
 
@@ -17,6 +17,7 @@
   .places__title {
     font-size: 42px;
     line-height: 46px;
+    /*width: calc(100vw - (32px + 2 * ((100vw - 320px) * (24 - 16) / (767 - 320))));*/
   }
 }
 

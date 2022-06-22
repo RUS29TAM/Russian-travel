@@ -2,5 +2,8 @@
   border: 1px solid rgb(0, 4, 255);
   width: 100%;
   box-sizing: border-box;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
 
 }

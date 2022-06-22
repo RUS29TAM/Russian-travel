@@ -1,34 +1,9 @@
 .intro__box {
 
-  border: 1px solid red;
-  width: 690px;
+  border: 1px dashed rgb(0, 225, 255);
+  max-width: 984px;
   box-sizing: border-box;
-  margin-left: 98px;
-  padding: 0;
-
-
+  margin: 0 auto;
 
 }
 
-@media screen and (max-width: 1023px) {
-  .intro__box  {
-    margin-left: 48px;
-
-    
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .intro__box  {
-    margin-left: 24px;
-
-
-  }
-}
-
-@media screen and (max-width: 319px) {
-  .intro__box  {
-    margin-left: 16px;
-    
-  }
-}

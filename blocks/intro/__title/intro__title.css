@@ -5,28 +5,7 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  color: #ffffff;
   margin: 0 0 40px;
-  padding: 0;  
-  width: 690px;
-  box-sizing: content-box;
-}
 
-
-@media screen and (max-width: 767px) {
-  .intro__title  {
-    width: 720px;
-
-
-
-  }
-}
-
-@media screen and (max-width: 319px) {
-  .intro__title  {
-    width: 288px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
+ }
 

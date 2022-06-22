@@ -10,13 +10,11 @@
 
 
 }
-
-
-/*@media screen and (max-width: 1023px) {
+/*@media screen and (min-width: 1280px) {
   .lead__map  {
-    max-width: 928px;
-
-    margin: 0;
-    padding: 0 48px 0;
+    max-width: 100vh;
+    
   }
 }
+
+*/

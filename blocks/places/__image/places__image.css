@@ -1,6 +1,7 @@
 .places__image {
-  /*border: 1px solid red;*/
+  border: 1px solid red;
   width: 100%;
+  /*box-sizing: border-box;*/
   max-width: 460px;
-  max-height: 460px;
+
 }

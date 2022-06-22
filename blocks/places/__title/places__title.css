@@ -1,5 +1,5 @@
 .places__title {
-  /*border: 1px solid red;*/
+  border: 1px solid rgb(210, 255, 12);
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -7,5 +7,22 @@
   line-height: 76px;
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  /*color: #ffffff;*/
+  width: 100%;
+  min-width: 288px;
+
+}
+
+@media screen and (max-width: 767px) {
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .places__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

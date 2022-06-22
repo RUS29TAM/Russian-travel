@@ -1,6 +1,13 @@
 .places {
-  /*border: 1px solid red;*/
+  border: 1px dashed rgb(255, 255, 255);
   margin: 0 auto;
-  padding: 0 48px 92px;
+  padding: 0 0 92px;
   box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 319px) {
+  .places {
+    padding: 0 0 66px;
+  }
 }

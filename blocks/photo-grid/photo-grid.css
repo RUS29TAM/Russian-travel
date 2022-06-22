@@ -1,7 +1,18 @@
 .photo-grid {
-  border: 1px solid red;
+  border: 1px dashed rgb(255, 255, 255);
   width: 100%;
-  /*padding: 0 48px 96px;*/
   box-sizing: border-box;
-  padding: 0 0 92px;
+  padding: 0 48px 92px 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    padding: 0 24px 88px 24px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .photo-grid {
+    padding: 0 16px 64px 16px;
+  }
 }

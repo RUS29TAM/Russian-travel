@@ -1,5 +1,5 @@
 .places__paragraph {
-  /*border: 1px solid red;*/
+  border: 1px dashed rgb(200, 255, 0);
   box-sizing: border-box;
   font-family: "Inter";
   font-style: normal;
@@ -13,4 +13,22 @@
 
 .places__paragraph:last-child {
   margin: 0;
+}
+
+@media screen and (max-width: 1027px) {
+  .places__paragraph {
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .places__paragraph {
+    font-size: 16px;
+  }
 }

@@ -1,5 +1,5 @@
 .cover {
-  /*border: 1px solid red;*/
+  border: 2px dashed rgb(0, 217, 255);
   max-width: 1184px;
   height: 740px;
   padding: 0;

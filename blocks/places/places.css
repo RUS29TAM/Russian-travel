@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 0 0 92px;
   box-sizing: border-box;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
 }
 
 @media screen and (max-width: 319px) {

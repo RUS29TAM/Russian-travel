@@ -1,5 +1,4 @@
 .intro__text {
-  /*border: 1px solid red;*/
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -8,5 +7,3 @@
   max-width: 720px;
   width: 100%;
 }
-
-

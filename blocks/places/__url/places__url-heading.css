@@ -1,11 +1,10 @@
 .places__url-heading {
   /*border: 1px solid red;*/
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.7;
-  /*для межбуквенного расстояния (letter-spacing) вместо пикселей зададим относительные размеры  https://developer.mozilla.org/ru/docs/Web/CSS/letter-spacing*/
   letter-spacing: 0.2;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }

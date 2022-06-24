@@ -1,5 +1,4 @@
 .header__lang-link {
-  /*border: 1px solid red;*/
   margin: 0;
   display: block;
   width: 30px;
@@ -9,12 +8,9 @@
   font-family: "Inter", "Arial", sans-serif;
   font-weight: normal;
   font-size: 24px;
-  /*для высоты строки вместо пикселей зададим относительные размеры*/
   line-height: 1.16;
-
 }
 
-  /*добавляем прозрачность элементу при наведении на него курсора*/
 .header__lang-link:hover {
- opacity: 0.8;
+  opacity: 0.8;
 }

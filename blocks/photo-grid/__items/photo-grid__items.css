@@ -1,12 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 .photo-grid__items {
-  /*border: 1px solid red;*/
   max-width: 1184px;
   display: -ms-grid;
   display: grid;
@@ -14,7 +6,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   list-style: none;
   margin: 0 auto;
   box-sizing: border-box;

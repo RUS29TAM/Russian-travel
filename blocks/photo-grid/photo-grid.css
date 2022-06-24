@@ -1,15 +1,7 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 .photo-grid {
-  /*border: 1px dashed rgb(255, 255, 255);*/
   width: 100%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0 48px 92px;
 }
 
@@ -24,10 +16,3 @@
     padding: 0 16px 64px;
   }
 }
-
-/*
-@media screen and (max-width: 767px) {
-  .photo-grid {
-    padding: 0 calc(48px * ((100vw - 320px) / (1280 - 320))) calc(((92px - 64px) * ((100vw - 320px) / (1280 - 320))));
-  }
-}*/

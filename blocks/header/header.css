@@ -1,16 +1,8 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 .header {
-  /*border: 1px solid red;*/
   width: calc(100% - 96px);
   padding: 28px 48px 48px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
@@ -36,4 +28,3 @@
     padding: 16px 16px 48px;
   }
 }
-

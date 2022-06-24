@@ -1,12 +1,11 @@
 .lead__title {
-  /*border: 1px solid red;*/
   max-width: 720px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
   /*для высоты строки вместо пикселей зададим относительные размеры*/
-  line-height: 1.04; 
+  line-height: 1.04;
   text-align: center;
   margin: 0 auto;
   text-align: center;
@@ -15,10 +14,6 @@
 
 @media (max-width: 767px) {
   .lead__title {
-    /*
-расчитаем динамическое масштабирование элемента (шрифт) по формуле: ((мах-значение вычетаем min-значение) * (100vw - min-ширина экрана) / (max-ширина экрана вычесть max-ширина экрана) 
-источник: https://nuancesprog.ru/p/10022/ 
-*/
     font-size: calc((96px - 40px) * ((100vw - 320px) / (1280 - 320)));
     line-height: calc((100px - 1.04) * ((100vw - 320px) / (1280 - 320)));
   }

@@ -1,16 +1,22 @@
 .cover__title {
-  border: 1px solid rgb(255, 0, 255);
-  padding: 245px auto 343px;
+  /*border: 1px solid rgb(255, 0, 255);*/
   margin: 0 auto;
   max-width: 560px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
-
-
+  line-height: 1.05;
   text-align: center;
-
   color: #ffffff;
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+  }
 }

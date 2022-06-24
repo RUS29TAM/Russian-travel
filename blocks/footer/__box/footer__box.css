@@ -1,14 +1,31 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .footer__box {
-    max-width: 1184px;
-    /*border: 1px solid red;*/
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+  /*border: 1px solid red;*/
+  max-width: 1184px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-/*@media screen and (max-width: 767px) {
-    .footer__box {
-flex-direction: column;
-    }    
-}*/
+@media screen and (max-width: 767px) {
+  .footer__box {
+    display: block;
+  }
+}

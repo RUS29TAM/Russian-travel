@@ -1,7 +1,30 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .footer {
-  width: 100%;
-  margin: 0 auto;
-  padding: 28px 48px 48px;
   /*border: 1px solid greenyellow;*/
-  box-sizing: border-box;
+  width: 100%;
+  padding: 92px 48px 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
+
+@media screen and (max-width:1023px) {
+  .footer {
+      padding: 88px 24px 22px;
+  }
+}
+
+
+
+@media screen and (max-width:767px) {
+  .footer {
+      padding: 64px 16px 24px;
+  }
+}
+

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  /*Дадим возможность браузеру не ждать загрузку щрифтов, заставим браузер рендерить текст сразу задав значение font-display: swap https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display*/
+  font-display: swap;
+  src: url(../fonts/Inter-Black.woff) format("woff"),
+    url(../fonts/Inter-Black.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Inter-Bold.woff) format("woff"),
+    url(../fonts/Inter-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Inter-Regular.woff) format("woff"),
+    url(../fonts/Inter-Regular.woff2) format("woff2");
+}

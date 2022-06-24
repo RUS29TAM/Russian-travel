@@ -1,12 +1,19 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .places__paragraph {
-  border: 1px dashed rgb(200, 255, 0);
+  /*border: 1px dashed rgb(200, 255, 0);*/
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
-  color: #ffffff;
+  line-height: 1.63;
   margin: 0 0 26px;
   padding: 0;
 }
@@ -15,19 +22,14 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1027px) {
+@media screen and (max-width: 1023px) {
   .places__paragraph {
-
+    font-size: 18px;
+    margin: 0 0 25px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places__paragraph {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 319px) {
   .places__paragraph {
     font-size: 16px;
   }

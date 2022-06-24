@@ -1,17 +1,22 @@
-.footer__links {
-    margin: 0;
-    padding: 0;
-    /*text-decoration: none;*/
-    list-style-type: none;
-    display: flex;
-    /*border: 1px solid rgb(32, 167, 5);*/
-   
-    
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 
+.footer__links {
+  /*border: 1px solid rgb(32, 167, 5);*/
+  margin: 0;
+  padding: 0;
+  /*list-style-type: none;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
-    .footer__links {
-flex-direction: column;
-    }    
+  .footer__links {
+    display: block;
+  }
 }

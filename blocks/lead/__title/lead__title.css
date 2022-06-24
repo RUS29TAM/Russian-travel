@@ -1,45 +1,25 @@
 .lead__title {
   /*border: 1px solid red;*/
-
   max-width: 720px;
-  min-height: 200px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  /*для высоты строки вместо пикселей зададим относительные размеры*/
+  line-height: 1.04; 
   text-align: center;
-  color: #ffffff;
   margin: 0 auto;
   text-align: center;
+  word-wrap: break-word;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .lead__title {
-    width: 100%;
-    max-width: 720px;
-    font-size: 96px;
-    line-height: 100px;
-    
-    
-  }
-}
-
-
-@media screen and (max-width: 600px) {
-  .lead__title { 
-    width: 100%;
-    max-width: 288px;
-    font-size: 40px;
-    line-height: 44px;
-  }
-}
-
-@media screen and (max-width: 319px) {
-  .lead__title {
-    width: 100%;
-    max-width: 288px;
-    font-size: 40px;
-    line-height: 44px;
+    /*
+расчитаем динамическое масштабирование элемента (шрифт) по формуле: ((мах-значение вычетаем min-значение) * (100vw - min-ширина экрана) / (max-ширина экрана вычесть max-ширина экрана) 
+источник: https://nuancesprog.ru/p/10022/ 
+*/
+    font-size: calc((96px - 40px) * ((100vw - 320px) / (1280 - 320)));
+    line-height: calc((100px - 1.04) * ((100vw - 320px) / (1280 - 320)));
   }
 }

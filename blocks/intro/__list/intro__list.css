@@ -1,14 +1,11 @@
 .intro__list {
-  border: 1px solid red;
-  /*max-width: 690px;*/
+  /*border: 1px solid red;*/
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
-  line-height: 18px;
-  color: #ffffff;
+  line-height: 1.5;
   list-style: none;
   margin: 0;
   padding: 0;
-
 }

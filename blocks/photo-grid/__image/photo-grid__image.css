@@ -1,8 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .photo-grid__image {
-  border: 1px solid rgb(0, 4, 255);
+  /*border: 1px solid rgb(0, 4, 255);*/
   width: 100%;
-  box-sizing: border-box;
-  object-fit: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin: 0;
   padding: 0;
 

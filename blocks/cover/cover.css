@@ -1,14 +1,22 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .cover {
-  border: 2px dashed rgb(0, 217, 255);
+  /*border: 2px dashed rgb(0, 217, 255);*/
+
   max-width: 1184px;
-  height: 740px;
   padding: 0;
-  margin: 0 auto 92px;
+  margin: 0;
   background-image: url(../../images/cover-trains.jpg);
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  display: flex;
-  
+  margin: 0 auto;
+
 }

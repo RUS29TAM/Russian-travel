@@ -1,25 +1,42 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .cover__overlay {
-  border: 3px outset rgb(31, 255, 2);
+  /*border: 3px outset rgb(31, 255, 2);*/
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   text-decoration: none;
-  background: #2A2C2F;
-  opacity: 0.3;
-  padding-top: calc(((100%/1.6) - 250px)/2); 
-  padding-bottom: calc(((100%/1.6) - 250px)/2);
+  /*background: #2A2C2F;*/
+  background-color: rgba(42, 44, 47, 0.3);
+  /*opacity: 0.3;*/
+  padding-top: calc(((100% / 1.6) - 250px) / 2);
+  padding-bottom: calc(((100% / 1.6) - 250px) / 2);
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .cover__overlay {
-    padding-top: calc(((100%/1.6) - 134px)/2);
-    padding-bottom: calc(((100%/1.6) - 134px)/2);
+    padding-top: calc(((100% / 1.6) - 134px) / 2);
+    padding-bottom: calc(((100% / 1.6) - 134px) / 2);
   }
 }
 
 .cover__overlay:hover {
-  background: #2A2C2F;
+  background: #2a2c2f;
   opacity: 0.8;
 }

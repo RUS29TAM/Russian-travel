@@ -1,20 +1,23 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .lead__map {
   /*border: 1px solid red;*/
   width: 100%;
   max-width: 984px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 auto;
-
-  
-
-
-
+  padding: 0;
 }
-/*@media screen and (min-width: 1280px) {
-  .lead__map  {
-    max-width: 100vh;
-    
+
+@media screen and (max-width: 767px) {
+  .lead__map {
+    padding: 0 2px;
   }
+  
 }
-
-*/

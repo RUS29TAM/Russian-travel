@@ -1,4 +1,10 @@
 .photo-grid__items {
-  border: 1px dashed rgb(251, 255, 0);
+  /*border: 1px dashed rgb(251, 255, 0);*/
   width: 100%;
 }
+
+@media screen and (max-width:767px) {
+  .photo-grid__items {
+    margin-bottom: 12px;
+  }
+} 

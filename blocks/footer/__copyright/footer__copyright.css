@@ -6,7 +6,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
-  text-align: right;
-  color: #ffffff;
+  line-height: 1.14;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 48px;
+  }
 }

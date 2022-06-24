@@ -1,14 +1,23 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .places__link {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
-  text-decoration-line: underline;
+  line-height: 1.22;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   color: #ffffff;
 }
 
 .places__link:hover {
   opacity: 0.8;
 }
+

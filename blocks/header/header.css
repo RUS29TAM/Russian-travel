@@ -1,8 +1,10 @@
 .header {
-  width: calc(100% - 96px);
   padding: 28px 48px 48px;
+  width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+margin: 0 auto;
+
 }
 
 @media screen and (max-width: 1279px) {

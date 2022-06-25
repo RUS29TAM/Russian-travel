@@ -1,10 +1,9 @@
 .lead__title {
   max-width: 720px;
-  font-family: "Inter";
+  font-family: 'Inter' 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  /*для высоты строки вместо пикселей зададим относительные размеры*/
   line-height: 1.04;
   text-align: center;
   margin: 0 auto;
@@ -14,7 +13,8 @@
 
 @media (max-width: 767px) {
   .lead__title {
-    font-size: calc((96px - 40px) * ((100vw - 320px) / (1280 - 320)));
-    line-height: calc((100px - 1.04) * ((100vw - 320px) / (1280 - 320)));
+    font-size: 40px;
+    line-height: 1.1;
+    max-width: 288px;
   }
 }

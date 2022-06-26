@@ -4,6 +4,8 @@
   display: grid;
   -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
   grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: 1fr 16px 1fr 16px 1fr;
+  grid-template-rows: repeat(3, 1fr);
   grid-gap: 16px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -16,6 +18,8 @@
   .photo-grid__items {
     -ms-grid-columns: 1fr 14px 1fr 14px 1fr;
     grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: 1fr 14px 1fr 14px 1fr 14px 1fr;
+    grid-template-rows: repeat(4, 1fr);
     gap: 14px;
   }
 }
@@ -24,6 +28,8 @@
   .photo-grid__items {
     -ms-grid-columns: 1fr 16px 1fr;
     grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
+    grid-template-rows: repeat(6, 1fr);
     gap: 16px;
   }
 }
@@ -32,6 +38,8 @@
   .photo-grid__items {
     -ms-grid-columns: 1fr;
     grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: 1fr;
+    grid-template-rows: repeat(1, 1fr);
     gap: 12px;
   }
 }

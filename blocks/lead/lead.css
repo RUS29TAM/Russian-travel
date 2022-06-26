@@ -1,18 +1,25 @@
 .lead {
-  margin: 0;
-  padding: 0 48px 92px;
+  width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 0 92px;
 }
 
-@media screen and (max-width: 1023px) {
-  .lead {
-    padding: 0 0 88px;
+@media (max-width: 1279px) {
+  .intro {
+    padding: 0 48px 92px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .lead {
+@media (max-width: 767px) {
+  .intro {
+    padding: 0 0px 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
     padding: 0 0 64px;
   }
 }

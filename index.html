@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <meta name="description" content="">
-    <meta name="autor" content="Рустам Никончук">
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <meta name="description" content="" />
+    <meta name="autor" content="Рустам Никончук" />
     <title>Путешествие по России</title>
   </head>
 
   <body class="page">
     <!--HEADER-->
     <header class="header">
-      <div class="header__block">
+      <nav class="header__block">
         <img
           src="./images/header-logo.svg"
           class="header__logo"
@@ -26,7 +27,7 @@
           </li>
           <li><a href="#" class="header__lang-link">En</a></li>
         </ul>
-      </div>
+      </nav>
     </header>
 
     <main class="content">
@@ -64,9 +65,17 @@
           </p>
           <ul class="intro__list">
             <li>Часовых поясов <span class="intro__meaning">11</span></li>
-            <li>Объектов природного наследия ЮНЕСКО <span class="intro__meaning">12</span></li>
-            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__meaning">16</span></li>
-            <li>Природных заповедников <span class="intro__meaning">105</span></li>
+            <li>
+              Объектов природного наследия ЮНЕСКО
+              <span class="intro__meaning">12</span>
+            </li>
+            <li>
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__meaning">16</span>
+            </li>
+            <li>
+              Природных заповедников <span class="intro__meaning">105</span>
+            </li>
             <li>Аэропортов <span class="intro__meaning">241</span></li>
           </ul>
         </div>
@@ -343,53 +352,51 @@
 
     <!--FOOTER-->
     <footer class="footer">
-      <div class="footer__box">
-        <nav>
-          <ul class="footer__links">
-            <li class="footer__link">
-              <a
-                class="footer__link"
-                href="https://yandex.ru/maps"
-                target="_blank"
-                >Карты</a
-              >
-            </li>
-            <li class="footer__link">
-              <a
-                class="footer__link"
-                href="https://yandex.ru/pogoda"
-                target="_blank"
-                >Погода</a
-              >
-            </li>
-            <li class="footer__link">
-              <a
-                class="footer__link"
-                href="https://rasp.yandex.ru"
-                target="_blank"
-                >Расписание</a
-              >
-            </li>
-            <li class="footer__link">
-              <a
-                class="footer__link"
-                href="https://calendar.yandex.ru"
-                target="_blank"
-                >Календарь</a
-              >
-            </li>
-            <li class="footer__link">
-              <a
-                class="footer__link"
-                href="https://travel.yandex.ru"
-                target="_blank"
-                >Путешествия</a
-              >
-            </li>
-          </ul>
-        </nav>
+      <nav class="footer__box">
+        <ul class="footer__links">
+          <li class="footer__link">
+            <a
+              class="footer__link"
+              href="https://yandex.ru/maps"
+              target="_blank"
+              >Карты</a
+            >
+          </li>
+          <li class="footer__link">
+            <a
+              class="footer__link"
+              href="https://yandex.ru/pogoda"
+              target="_blank"
+              >Погода</a
+            >
+          </li>
+          <li class="footer__link">
+            <a
+              class="footer__link"
+              href="https://rasp.yandex.ru"
+              target="_blank"
+              >Расписание</a
+            >
+          </li>
+          <li class="footer__link">
+            <a
+              class="footer__link"
+              href="https://calendar.yandex.ru"
+              target="_blank"
+              >Календарь</a
+            >
+          </li>
+          <li class="footer__link">
+            <a
+              class="footer__link"
+              href="https://travel.yandex.ru"
+              target="_blank"
+              >Путешествия</a
+            >
+          </li>
+        </ul>
         <p class="footer__copyright">&copy; 2022. Рустам Никончук</p>
-      </div>
+      </nav>
     </footer>
   </body>
 </html>

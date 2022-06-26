@@ -24,7 +24,7 @@ https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B
 
 1. Схема организации файловой структуры БЭМ - Nested
 2. Схема построения flex-box GRID Layout 
-3. Адаптивная вёрстка (320px - 1280px)
+3. Адаптивная вёрстка (320px 768px 1024px 1280px)
 
 ---
 ![alt text](https://yastatic.net/q/logoaas/v2/Яндекс.svg?circle=black&color=000&first=white "Logo")

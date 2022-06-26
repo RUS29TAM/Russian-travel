@@ -19,6 +19,6 @@
 @media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: calc(18px + ((100vw - 320px) * (24 - 18) / (767 - 320)));
-    line-height: calc(1.1 + ((100vw - 320px) * (1.16 - 1.1) / (767 - 320)));
+    line-height: 1.11;
   }
 }

@@ -11,14 +11,21 @@
 
 @media screen and (max-width: 1023px) {
   .places__title {
-    font-size: calc(42px + ((100vw - 768px) * (72 - 42) / (1023 - 768)));
-    line-height: 1.09;
+    font-size: calc(43px + ((100vw - 768px) * (72 - 43) / (1023 - 768)));
+    line-height: 1.09em;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places__title {
     font-size: calc(32px + ((100vw - 320px) * (42 - 32) / (767 - 320)));
-    line-height: 1.09;
+    line-height: 1.09em;
+     
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__title {
+
   }
 }

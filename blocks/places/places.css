@@ -1,10 +1,17 @@
 .places {
   margin: 0 auto;
-  padding: 0 48px 92px;
+  padding: 0 0 92px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 0 0 66px;
+  }
+
+}
+/*
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places {
     padding: 0 48px 80px;

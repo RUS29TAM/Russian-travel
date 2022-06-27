@@ -3,14 +3,19 @@
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  width: 77px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
   margin: 0;
   padding: 0;
-  gap: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-links {
+    max-width: 62px;
+    margin-bottom: 6px;
+  }
 }

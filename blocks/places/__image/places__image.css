@@ -9,3 +9,10 @@
     margin: 0 auto 32px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places__image {
+    max-width: 100%;
+    margin: 0;
+  }
+}

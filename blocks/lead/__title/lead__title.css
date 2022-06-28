@@ -1,4 +1,5 @@
 .lead__title {
+  width: 100%;
   max-width: 720px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
@@ -8,7 +9,6 @@
   margin: 0 auto;
   text-align: center;
   word-wrap: break-word;
-  outline: 1px dotted rgb(99, 99, 53);
 }
 
 @media screen and (max-width: 767px) {

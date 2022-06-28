@@ -20,6 +20,10 @@
   margin: 0 auto;
 }
 
+.places__place:last-of-type {
+  padding-bottom: 0;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__place {
     gap: 48px 32px;

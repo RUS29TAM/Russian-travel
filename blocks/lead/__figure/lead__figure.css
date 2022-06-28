@@ -1,9 +1,7 @@
 .lead__figure {
-  width: 100%;
   max-width: 984px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
-  outline: 1px dotted rgb(236, 146, 104);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }

@@ -11,11 +11,15 @@
   align-items: end;
   margin: 0;
   padding: 0;
+  gap: 18px;
 }
 
 @media screen and (max-width: 767px) {
   .header__lang-links {
-    max-width: 62px;
+    /*max-width: 62px;*/
     margin-bottom: 6px;
+    justify-content: space-between;
+    /*border: dotted 1px whitesmoke;*/
+    
   }
 }

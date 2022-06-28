@@ -1,15 +1,13 @@
 .places__paragraph {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Inter', 'Arial', sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
   margin: 0 0 26px;
   padding: 0;
-  border: 1px dotted blue;
-
 }
 
 .places__paragraph:last-child {

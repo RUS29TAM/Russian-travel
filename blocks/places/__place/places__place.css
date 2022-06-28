@@ -77,7 +77,6 @@
   grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
   grid-template-rows: min-content;
   gap: 48px 40px;
-  border: 1px dotted green;
   box-sizing: border-box;
   justify-items: start;
   justify-content: start;
@@ -99,7 +98,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .places__place {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -5,3 +5,9 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 767px) {
+  .places__website {
+    padding: 0 16px;
+  }
+}

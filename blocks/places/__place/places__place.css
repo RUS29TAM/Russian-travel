@@ -53,6 +53,6 @@
     -ms-flex-line-pack: stretch;
     align-content: stretch;
     gap: 32px;
-    padding: 0 16px 50px;
+    padding: 0 0 50px;
   }
 }

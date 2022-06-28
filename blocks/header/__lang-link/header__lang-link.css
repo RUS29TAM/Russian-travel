@@ -3,13 +3,14 @@
   margin: 0;
   padding: 0;
   width: 30px;
-  height: 28px;
   text-decoration: none;
   color: #ffffff;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: normal;
   font-size: 24px;
   line-height: 1.16;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .header__lang-link:hover {
@@ -21,8 +22,5 @@
     font-size: calc(18px + ((100vw - 320px) * (24 - 18) / (767 - 320)));
     line-height: 1.11;
     max-width: 22px;
-    max-height: 20px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
   }
 }

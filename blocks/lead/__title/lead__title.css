@@ -5,10 +5,10 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 1.04;
-  text-align: center;
   margin: 0 auto;
   text-align: center;
   word-wrap: break-word;
+  outline: 1px dotted rgb(99, 99, 53);
 }
 
 @media screen and (max-width: 767px) {

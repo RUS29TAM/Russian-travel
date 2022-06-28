@@ -1,6 +1,7 @@
 .lead__image {
   max-width: 100%;
   margin: 0 auto;
+  outline: 1px dotted rgb(13, 140, 243);
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

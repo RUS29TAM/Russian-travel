@@ -16,14 +16,13 @@
   opacity: 0.8;
 }
 
-
 @media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: calc(18px + ((100vw - 320px) * (24 - 18) / (767 - 320)));
     line-height: 1.11;
     max-width: 22px;
     max-height: 20px;
-    /*border: dotted 1px yellow;*/
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
 }

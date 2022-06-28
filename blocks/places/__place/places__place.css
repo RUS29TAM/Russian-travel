@@ -1,87 +1,31 @@
-/*.places__place {
+.places__place {
   width: 100%;
   max-width: 984px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(440px, 460px) 40px minmax(456px, 484px);
-  grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-  gap: 48px 40px;
-  margin: 0 auto 80px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.places__place:last-child {
-  margin-bottom: 0;
-}
-
-@media screen and (max-width: 1279px) {
-  .places__place {
-    gap: 48px 40px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .places__place {
-    -ms-grid-columns: minmax(340px, 440px) 32px minmax(352px, 456px);
-    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-
-    margin: 0 auto 73px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .places__place {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-    gap: 32px;
-    margin: 0 auto 64px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .places__place {
-    gap: 48px 32px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .places__place {
-    gap: 48px 28px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .places__place {
-    gap: 50px 0;
-  }
-}
-
-/*****/
-
-.places__place {
-  width: 100%;
-  max-width: 984px;
-  display: grid;
+  -ms-grid-columns: minmax(340px, 460px) 40px minmax(352px, 484px);
   grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  -ms-grid-rows: -webkit-min-content;
+  -ms-grid-rows: min-content;
+  grid-template-rows: -webkit-min-content;
   grid-template-rows: min-content;
   gap: 48px 40px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   justify-items: start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: start;
   padding-bottom: 80px;
   margin: 0 auto;
+}
+.places__place > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.places__place > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

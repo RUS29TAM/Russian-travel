@@ -16,10 +16,9 @@
 
 @media screen and (max-width: 767px) {
   .header__lang-links {
-    /*max-width: 62px;*/
     margin-bottom: 6px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
-    /*border: dotted 1px whitesmoke;*/
-    
   }
 }
